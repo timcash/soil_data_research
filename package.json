@@ -7,11 +7,7 @@
   "scripts": {
     "test": "node test/*.test.js",
     "test:report": "standard & brittle -e test/*.test.js",
-    "fix": "standard --fix",
-    "sqlload": "node data_pipeline/csv_sqllite.js",
-    "sqlload:d": "node --inspect data_pipeline/csv_sqllite.js",
-    "sqlload:w": "nodemon -q data_pipeline/csv_sqllite.js",
-    "sqlload:d:w": "nodemon -q --inspect data_pipeline/csv_sqllite.js"
+    "fix": "standard --fix"
   },
   "repository": {
     "type": "git",
